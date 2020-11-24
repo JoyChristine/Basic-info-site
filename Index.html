@@ -4,17 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
+    <style>
+        .nav li {
+            display: flex;
+        }
+        
+        .nav a {
+            text-decoration: none;
+            cursor: pointer;
+            color: black;
+            list-style: none;
+            font-size: 3rem;
+        }
+        
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background: rgb(15, 173, 221);
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <ul>
-            <li>
-                <a href="" class="home" id="home">Home</a>
-                <a href="" class="about" id="about">About</a>
-                <a href="" class="contact" id="contact">Contact</a>
-            </li>
+        <ul class="nav">
+            <li><a href="" class="home" id="home">Home</a></li>
+            <li><a href="" class="about" id="about">About</a></li>
+            <li><a href="" class="contact" id="contact">Contact</a></li>
         </ul>
     </header>
 </body>
